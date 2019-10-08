@@ -1,4 +1,4 @@
-# react-native-sunmi-inner-printer
+# rn-sunmi-inner-printer
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/januslo/react-native-sunmi-inner-printer/master/LICENSE) [![npm version](https://badge.fury.io/js/react-native-sunmi-inner-printer.svg)](https://www.npmjs.com/package/react-native-sunmi-inner-printer)
 
 
