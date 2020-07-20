@@ -36,6 +36,6 @@ repositories {
 }
 
 dependencies {
-    compile 'com.facebook.react:react-native:[0.55.4,)'
-    compile "com.google.zxing:core:3.2.1"
+    api 'com.facebook.react:react-native:[0.55.4,)'
+    api "com.google.zxing:core:3.2.1"
 }
