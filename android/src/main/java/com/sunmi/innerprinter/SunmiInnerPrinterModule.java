@@ -63,9 +63,9 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
     // 切刀异常2－切刀修复
     public final static String KNIFE_ERROR_2_ACTION = "woyou.aidlservice.jiuv5.KNIFE_ERROR_ACTION_2";
     // 打印头过热异常
-    public final static String OVER_HEATING_ACITON = "woyou.aidlservice.jiuv5.OVER_HEATING_ACITON";
+    public final static String OVER_HEATING_ACTION = "woyou.aidlservice.jiuv5.OVER_HEATING_ACTION";
     // 打印机固件开始升级
-    public final static String FIRMWARE_UPDATING_ACITON = "woyou.aidlservice.jiuv5.FIRMWARE_UPDATING_ACITON";
+    public final static String FIRMWARE_UPDATING_ACTION = "woyou.aidlservice.jiuv5.FIRMWARE_UPDATING_ACTION";
 
     private ServiceConnection connService = new ServiceConnection() {
         @Override
@@ -100,8 +100,8 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
         mFilter.addAction(COVER_ERROR_ACTION);
         mFilter.addAction(KNIFE_ERROR_1_ACTION);
         mFilter.addAction(KNIFE_ERROR_2_ACTION);
-        mFilter.addAction(OVER_HEATING_ACITON);
-        mFilter.addAction(FIRMWARE_UPDATING_ACITON);
+        mFilter.addAction(OVER_HEATING_ACTION);
+        mFilter.addAction(FIRMWARE_UPDATING_ACTION);
         getReactApplicationContext().registerReceiver(receiver, mFilter);
         Log.d("PrinterReceiver", "------------ init ");
     }
@@ -124,8 +124,8 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
         constantsChildren.put("COVER_ERROR_ACTION", COVER_ERROR_ACTION);
         constantsChildren.put("KNIFE_ERROR_1_ACTION", KNIFE_ERROR_1_ACTION);
         constantsChildren.put("KNIFE_ERROR_2_ACTION", KNIFE_ERROR_2_ACTION);
-        constantsChildren.put("OVER_HEATING_ACITON", OVER_HEATING_ACITON);
-        constantsChildren.put("FIRMWARE_UPDATING_ACITON", FIRMWARE_UPDATING_ACITON);
+        constantsChildren.put("OVER_HEATING_ACTION", OVER_HEATING_ACTION);
+        constantsChildren.put("FIRMWARE_UPDATING_ACTION", FIRMWARE_UPDATING_ACTION);
 
         constants.put("Constants", constantsChildren);
 
