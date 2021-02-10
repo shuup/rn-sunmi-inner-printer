@@ -2,6 +2,15 @@
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/januslo/react-native-sunmi-inner-printer/master/LICENSE) [![npm version](https://badge.fury.io/js/react-native-sunmi-inner-printer.svg)](https://www.npmjs.com/package/react-native-sunmi-inner-printer)
 
+## SHUUP README
+
+Original repo:
+https://github.com/januslo/react-native-sunmi-inner-printer
+
+This fork contains fixes from other developers who have updated the original repo further since it isn't updated anymore. The fixes are mainly React Native and gradle version updates.
+
+## ORIGINAL README
+
 https://docs.sunmi.com/en/
 (React native plugin Referring the sunmi V1 printer document and demos)
 
